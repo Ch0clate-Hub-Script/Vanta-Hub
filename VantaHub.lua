@@ -49,6 +49,13 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
+   Name = "Fly",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Rawbr10/Roblox-Scripts/refs/heads/main/God%20Mode%20Script%20Universal"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
    Name = "Noclip [Enable Fly First]",
    Callback = function()
   loadstring(game:HttpGet("https://pastebin.com/raw/2JZWpiKn"))()
