@@ -48,6 +48,14 @@ local Button = MainTab:CreateButton({
    end,
 })
 
+local Button = MainTab:CreateButton({
+   Name = "Noclip [Enable Fly First]",
+   Callback = function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/2JZWpiKn"))()
+
+   end,
+})
+
 local MovementSection = MainTab:CreateSection("Actual Movement")
 
 ---------------------------------------------------------
